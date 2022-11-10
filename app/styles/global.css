@@ -1,0 +1,388 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Ringside Wide';
+  src: url("http://localhost:8080/fonts/RingsideWide-Semibold.woff") format("woff"), url("http://localhost:8080/fonts/RingsideWide-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ringside Wide';
+  src: url("https://tandoorandtap-v2.vercel.app/fonts/RingsideWide-Semibold.woff") format("woff"), url("https://tandoorandtap-v2.vercel.app/fonts/RingsideWide-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ringside Wide Black';
+  src: url("http://localhost:8080/fonts/RingsideWide-Black.woff") format("woff"), url("http://localhost:8080/fonts/RingsideWide-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ringside Wide Black';
+  src: url("https://tandoorandtap-v2.vercel.app/fonts/RingsideWide-Black.woff") format("woff"), url("https://tandoorandtap-v2.vercel.app/fonts/RingsideWide-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ideal Sans';
+  src: url("http://localhost:8080/fonts/IdealSans-Book-Pro.woff") format("woff"), url("http://localhost:8080/fonts/IdealSans-Book-Pro.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ideal Sans';
+  src: url("https://tandoorandtap-v2.vercel.app/fonts/IdealSans-Book-Pro.woff") format("woff"), url("https://tandoorandtap-v2.vercel.app/fonts/IdealSans-Book-Pro.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Le Murmure';
+  src: url("http://localhost:8080/fonts/le-murmure.woff") format("woff"), url("http://localhost:8080/fonts/le-murmure.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Le Murmure';
+  src: url("https://tandoorandtap-v2.vercel.app/fonts/le-murmure.woff") format("woff"), url("https://tandoorandtap-v2.vercel.app/fonts/le-murmure.woff2") format("woff2");
+}
+
+html {
+
+}
+
+body {
+  font-family: 'Ideal Sans';
+}
+
+h1 {
+  font-family: 'Ringside Wide Black';
+}
+
+h2 {
+  font-family: 'Ringside Wide Black';
+  color: #333333;
+}
+
+h3 {
+  font-family: 'Ringside Wide';
+  color: #333333;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+  font-family: 'Ringside Wide';
+  color: #333333;
+}
+
+p {
+  font-family: 'Ideal Sans';
+  color: #333333;
+}
+
+a {
+
+}
+
+button {
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+address {
+
+}
+
+blockquote {
+
+}
+
+code {
+
+}
+
+label {
+
+}
+
+input {
+
+}
+
+input::placeholder {
+
+}
+
+textarea {
+
+}
+
+textarea::placeholder {
+
+}
+
+select {
+
+}
+
+input[type="submit"] {
+
+}
+
+img {
+
+}
+
+[x-cloak] { 
+  display: none !important; 
+}
+
+.red-button {
+  background-color: #9B1C56;
+  font-family: 'Ringside Wide';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 40px 12px 40px;
+  transition: 0.25s;
+}
+
+.red-button:hover {
+  background-color: #8c194d;
+  transition: 0.25s;
+}
+
+.orange-button {
+  background-color: #F57F29;
+  font-family: 'Ringside Wide';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 40px 12px 40px;
+  transition: 0.25s;
+}
+
+.orange-button:hover {
+  background-color: #dd7225;
+  transition: 0.25s;
+}
+
+.cog-form {
+  font-family: 'Ideal Sans';
+}
+
+.el-input__inner {
+  padding: 14px 20px 14px 20px;
+  background-color: #ECECEC;
+  color: #333333;
+  border-radius: 6px;
+}
+
+.el-input__inner::placeholder {
+  opacity: 0.75;
+}
+
+.el-textarea__inner {
+  padding: 14px 20px 14px 20px;
+  background-color: #ECECEC;
+  color: #333333;
+  border-radius: 6px;
+  height: 120px !important;
+}
+
+.el-textarea__inner::placeholder {
+  opacity: 0.75;
+}
+
+.cog-button {
+  background-color: #F57F29;
+  font-family: 'Ringside Wide';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 40px 12px 40px;
+  margin-left: auto !important;
+  transition: 0.25s;
+}
+
+.cog-button:hover {
+  background-color: #dd7225;
+  transition: 0.25s;
+}
+
+.hero {
+  background-size: cover;
+}
+
+.hero-title {
+  font-family: 'Le Murmure';
+}
+
+.menu-cats {
+  min-width: 1200px;
+  font-family: 'Ringside Wide';
+  color: #262626;
+  font-size: 16px;
+}
+
+.hover-menu-cat {
+  margin-left: -26px;
+  margin-right: -26px;
+}
+
+.hover-menu-cat::before {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.hover-menu-cat::after {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+}
+
+.clicked-menu-cat {
+  margin-left: -26px;
+  margin-right: -26px;
+}
+
+.clicked-menu-cat::before {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.clicked-menu-cat::after {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+}
+
+.menu-slider {
+  position: fixed;
+  inset: 0;
+  overflow-y: scroll;
+  pointer-events: none;
+  opacity: 0;
+  background-color: rgba(155, 28, 86, 0.9);
+  padding: 24px 0px 400px 0px;
+  z-index: 998;
+  transition: .5s;
+}
+
+.menu-slider-active {
+  pointer-events: initial !important;
+  opacity: 1 !important;
+  transition: .5s;
+}
+
+.splide {
+  -webkit-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+  padding: 0px 8px 0px 8px;
+}
+
+.splide__slide {
+  max-width: 1140px;
+}
+
+.menu-img {
+  height: 300px;
+  object-fit: cover !important;
+}
+
+.splide__pagination {
+  display: none !important;
+}
+
+.slider-menu-content {
+  height: 100%;
+  padding: 20px;
+}
+
+.slider-menu-title {
+  font-family: 'Ringside Wide';
+  font-size: 24px;
+  color: #282829;
+}
+
+.menu-item-title {
+  font-family: 'Ringside Wide';
+  font-size: 24px;
+  color: #9B1C56;
+}
+
+.menu-item:hover {
+  background-color: rgba(253, 182, 24, 0.25);
+}
+
+@media (min-width: 416px) {
+ 
+}
+
+@media (min-width: 576px) {
+  .menu-img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .splide {
+    -webkit-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+  }
+  .splide__slide {
+    max-width: 1140px;
+    max-height: 778px;
+  }
+  .slider-menu-content {
+    height: 136px;
+    padding: 20px 80px 20px 80px;
+  }
+  .splide__arrow {
+    top: 91% !important;
+    background-color: transparent !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+}
+
+@media (min-width: 1440px) {
+  
+}
+
+@media (min-width: 2000px) {
+  
+}

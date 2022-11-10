@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tandoorandtap.com
+
+# Sitemaps
+Sitemap: https://www.tandoorandtap.com/sitemap.xml

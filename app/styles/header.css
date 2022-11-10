@@ -1,0 +1,178 @@
+header {
+  
+}
+
+.header-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 28px 32px 24px 32px;
+  background-color: #F57F29;
+  z-index: 999;
+  transition: .25s;
+}
+
+.desktop-logo {
+  margin: auto;
+}
+
+.desktop-menu {
+    display: none;
+    background-color: #F57F29;
+}
+
+.desktop-menu-single {
+  font-family: 'Ringside Wide';
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.desktop-menu:last-child {
+  margin-right: 0px !important;
+}
+
+.desktop-menu-single a {
+  padding: 12px;
+}
+
+.desktop-menu-single a:hover {
+  background-image: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/11/menu-hover.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.active-desktop-menu-item {
+  background-image: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/11/menu-hover.svg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  overflow-y: scroll;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(1.1);
+  background-color: #F57F29;
+  padding: 24px 12px 0px 12px;
+  z-index: 998;
+  transition: .25s;
+}
+
+.mobile-items {
+  position: static;
+  padding-bottom: 100px;
+}
+
+.mobile-items {
+  position: relative;
+  z-index: 998;
+}
+
+.mobile-menu-logo {
+  margin: auto;
+  padding-bottom: 24px;
+}
+
+.mobile-menu-single {
+  font-size: 48px;
+  color: #ffffff !important;
+  padding-bottom: 0px !important;
+  text-transform: uppercase;
+}
+
+.mobile-social-icon-box {
+  display: flex;
+  margin-left: -15px;
+}
+
+.mobile-social-icon {
+  width: 40px;
+  margin: 15px;
+}
+
+.mobile-menu-open {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 48px;
+  background-color: #222222;
+  margin: 0 auto 48px auto;
+  padding: 10px;
+  z-index: 999;
+}
+
+.mobile-menu-close {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 48px;
+  background-color: #9B1C56;
+  margin: 0 auto 48px auto;
+  padding: 10px;
+  z-index: 998;
+}
+
+.mobile-menu-active {
+    pointer-events: initial !important;
+    opacity: 1 !important;
+    transform: scale(1.0) !important;
+    transition: .25s;
+}
+
+@media (min-width: 416px) {
+   
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    padding: 16px 32px 12px 32px;
+  }
+  .desktop-logo {
+    margin-left: 0;
+  }
+    .desktop-menu {
+      display: flex;
+    }
+    .mobile-menu-open {
+      display: none;
+    }
+    .mobile-menu-close {
+      display: none;
+    }
+}
+
+@media (min-width: 992px) {
+  header {
+    height: 102px;
+  }
+  .site-logo {
+    max-width: 260px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu-item {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+    
+}
+
+@media (min-width: 2000px) {
+    
+}

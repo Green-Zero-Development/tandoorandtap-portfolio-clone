@@ -1,0 +1,38 @@
+.cog-label {
+    color: #333333 !important;
+    text-align: left !important;
+    text-transform: uppercase;
+}
+
+.employment-form-wrapper .el-input__inner {
+    padding: 14px 20px 14px 20px;
+    background-color: #ECECEC;
+    color: #333333;
+    border-radius: 6px;
+    box-shadow: 3px 2px 14px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 3px 2px 14px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 3px 2px 14px 0px rgba(0,0,0,0.15);
+}
+
+.employment-form-wrapper .el-input__inner::placeholder {
+    color: #333333;
+    opacity: 0.75;
+}
+
+.employment-form-wrapper .el-textarea__inner {
+    padding: 14px 20px 14px 20px;
+    background-color: #ECECEC;
+    color: #333333;
+    border-radius: 6px;
+    height: 120px !important;
+}
+
+.employment-form-wrapper .el-textarea__inner::placeholder {
+    opacity: 0.75;
+}
+
+.employment-form-wrapper .cog-content {
+    font-size: 32px;
+    padding: 24px 0 24px 0 !important;
+    text-decoration: underline;
+}
