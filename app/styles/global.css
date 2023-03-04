@@ -1,0 +1,383 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Ringside Wide';
+  src: url("http://localhost:8080/fonts/RingsideWide-Semibold.woff") format("woff"), url("http://localhost:8080/fonts/RingsideWide-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ringside Wide';
+  src: url("https://www.tandoorandtap.com/fonts/RingsideWide-Semibold.woff") format("woff"), url("https://www.tandoorandtap.com/fonts/RingsideWide-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ringside Wide Black';
+  src: url("http://localhost:8080/fonts/RingsideWide-Black.woff") format("woff"), url("http://localhost:8080/fonts/RingsideWide-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ringside Wide Black';
+  src: url("https://www.tandoorandtap.com/fonts/RingsideWide-Black.woff") format("woff"), url("https://www.tandoorandtap.com/fonts/RingsideWide-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ideal Sans';
+  src: url("http://localhost:8080/fonts/IdealSans-Book-Pro.woff") format("woff"), url("http://localhost:8080/fonts/IdealSans-Book-Pro.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Ideal Sans';
+  src: url("https://www.tandoorandtap.com/fonts/IdealSans-Book-Pro.woff") format("woff"), url("https://www.tandoorandtap.com/fonts/IdealSans-Book-Pro.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Le Murmure';
+  src: url("http://localhost:8080/fonts/le-murmure.woff") format("woff"), url("http://localhost:8080/fonts/le-murmure.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Le Murmure';
+  src: url("https://www.tandoorandtap.com/fonts/le-murmure.woff") format("woff"), url("https://www.tandoorandtap.com/fonts/le-murmure.woff2") format("woff2");
+}
+
+body {
+  font-family: 'Ideal Sans';
+}
+
+h1 {
+  font-family: 'Ringside Wide Black';
+}
+
+h2 {
+  font-family: 'Ringside Wide Black';
+  color: #333333;
+}
+
+h3 {
+  font-family: 'Ringside Wide';
+  color: #333333;
+}
+
+h6 {
+  font-family: 'Ringside Wide';
+  color: #333333;
+}
+
+p {
+  font-family: 'Ideal Sans';
+  color: #333333;
+}
+
+[x-cloak] { 
+  display: none !important; 
+}
+
+.red-button {
+  background-color: #9B1C56;
+  font-family: 'Ringside Wide';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 40px 12px 40px;
+  transition: 0.25s;
+}
+
+.red-button:hover {
+  background-color: #8c194d;
+  transition: 0.25s;
+}
+
+.orange-button {
+  background-color: #F57F29;
+  font-family: 'Ringside Wide';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 40px 12px 40px;
+  transition: 0.25s;
+}
+
+.orange-button:hover {
+  background-color: #dd7225;
+  transition: 0.25s;
+}
+
+.cog-form {
+  font-family: 'Ideal Sans';
+}
+
+.el-input__inner {
+  padding: 14px 20px 14px 20px;
+  background-color: #ECECEC;
+  color: #333333;
+  border-radius: 6px;
+}
+
+.el-input__inner::placeholder {
+  opacity: 0.75;
+}
+
+.el-textarea__inner {
+  padding: 14px 20px 14px 20px;
+  background-color: #ECECEC;
+  color: #333333;
+  border-radius: 6px;
+  height: 120px !important;
+}
+
+.el-textarea__inner::placeholder {
+  opacity: 0.75;
+}
+
+.cog-button {
+  background-color: #F57F29;
+  font-family: 'Ringside Wide';
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 40px 12px 40px;
+  margin-left: auto !important;
+  transition: 0.25s;
+}
+
+.cog-button:hover {
+  background-color: #dd7225;
+  transition: 0.25s;
+}
+
+.hero {
+  background-size: cover;
+}
+
+.hero-title {
+  font-family: 'Le Murmure';
+}
+
+.menu-types {
+  max-width: 400px;
+  font-family: 'Ringside Wide';
+  color: #262626;
+  font-size: 16px;
+}
+
+.yellow-scrolling-section::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-cats-box {
+  margin-left: -0.4rem;
+  transition: 0.25s;
+}
+
+.menu-cats-box::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-cats {
+  min-width: 1200px;
+  font-family: 'Ringside Wide';
+  color: #262626;
+  font-size: 16px;
+}
+
+.hover-menu-type {
+  margin-left: -26px;
+  margin-right: -26px;
+}
+
+.hover-menu-type::before {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.hover-menu-type::after {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+}
+
+.menu-cat {
+  border-bottom: 3px solid transparent;
+}
+
+.hover-menu-cat {
+  border-bottom: 3px solid #9B1C56;
+}
+
+.clicked-menu-type {
+  margin-left: -26px;
+  margin-right: -26px;
+}
+
+.clicked-menu-type::before {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.clicked-menu-type::after {
+  content: url('https://inside.tandoorandtap.com/wp-content/uploads/2022/10/menu-active-marker.svg');
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+}
+
+.clicked-menu-cat {
+  border-bottom: 3px solid #9B1C56;
+}
+
+.menu-slider {
+  position: fixed;
+  inset: 0;
+  overflow-y: hidden;
+  pointer-events: none;
+  opacity: 0;
+  background-color: rgba(155, 28, 86, 0.9);
+  padding: 24px 0px 400px 0px;
+  z-index: 999;
+}
+
+.menu-slider-active {
+  pointer-events: initial !important;
+  opacity: 1 !important;
+}
+
+.splide {
+  -webkit-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+  padding: 0px 8px 0px 8px;
+}
+
+.splide__slide {
+  max-width: 1140px;
+}
+
+.menu-img {
+  height: 300px;
+  object-fit: cover !important;
+}
+
+.splide__pagination {
+  visibility: hidden !important;
+}
+
+.slider-menu-content {
+  height: 100%;
+  padding: 20px;
+}
+
+.slider-menu-title {
+  font-family: 'Ringside Wide';
+  font-size: 24px;
+  color: #282829;
+}
+
+.menu-item-title {
+  font-family: 'Ringside Wide';
+  font-size: 24px;
+  color: #9B1C56;
+}
+
+.menu-item:hover {
+  background-color: rgba(253, 182, 24, 0.25);
+}
+
+.menu-app-veg {
+  font-family: 'Ringside Wide';
+  text-transform: uppercase;
+  color: #F57F29;
+}
+
+.image-divider-top {
+  width: 250px;
+  height: 250px;
+}
+
+.image-divider-bottom {
+  width: 250px;
+  height: 250px;
+}
+
+.hide-cats {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-50px);
+  margin-bottom: -50px;
+  transition: 0.25s;
+}
+
+.lunch-specifics-text {
+  padding-right: 12px;
+  padding-left: 56px;
+}
+
+@media (min-width: 416px) {
+ 
+}
+
+@media (min-width: 576px) {
+  .menu-img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-img {
+    height: 500px;
+  }
+  .image-divider-top {
+    width: 409px;
+    height: 409px;
+  }
+  
+  .image-divider-bottom {
+    width: 409px;
+    height: 409px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-slider {
+    overflow-y: hidden !important;
+  }
+  .splide {
+    -webkit-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+  }
+  .splide__slide {
+    max-width: 1140px;
+    max-height: 778px;
+  }
+  .slider-menu-content {
+    height: 136px;
+    padding: 20px 80px 20px 80px;
+  }
+  .splide__arrow {
+    top: 91% !important;
+    background-color: transparent !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+}
+
+@media (min-width: 1440px) {
+  
+}
+
+@media (min-width: 2000px) {
+  
+}

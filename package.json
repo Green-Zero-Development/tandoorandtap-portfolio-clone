@@ -1,0 +1,26 @@
+{
+  "name": "tandoor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start -p 8080",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.0.2",
+    "next-sitemap": "^3.1.30",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.26.0",
+    "eslint-config-next": "^13.0.2",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
+  }
+}
